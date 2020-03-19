@@ -1,0 +1,23 @@
+/* base styles */
+img{
+  filter: contrast(500%) grayscale(100%);
+}
+
+.diana{
+  height: 100vh;
+}
+
+.news:hover{
+  transform: scale(2.5);
+  z-index: 100;
+  
+}
+#container{
+  display: flex;
+  /* flex-wrap: wrap; */
+}
+
+#containernews{
+  display: flex;
+  flex-wrap: wrap;
+}
